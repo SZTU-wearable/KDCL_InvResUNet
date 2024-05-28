@@ -1,6 +1,6 @@
 # KDCL_InvResUNet
 
-- trian_UNet_Ten_Folders 
+- trian_UNet_Ten_Folders  1111
   - 独立训练 UNet 模型
 - kdcl_train_allmodel_Ten_Flods_4  
   - 协作学习 UTransBPNet UNet InvertedResidualUNet_small InvertedResidualUNet_large, 二次表示方法为均值
