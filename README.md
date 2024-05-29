@@ -7,3 +7,5 @@
 - train_InvertedResidual_small_Unet_Ten_Folds: independent training of InvertedResidualUNet_small 
 - train_InvertedResidual_large_Unet_Ten_Folds: independent training of InvertedResidualUNet_large 
 - Description of all model structures used in the training above 
+- Embedded_deployment_code: Code deployed to the Raspberry Pi 4 Model B
+
