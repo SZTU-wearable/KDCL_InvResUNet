@@ -1,15 +1,9 @@
 # KDCL_InvResUNet
 
-- trian_UNet_Ten_Folders 
-  - 独立训练 UNet 模型
-- kdcl_train_allmodel_Ten_Flods_4_mean 
-  - 协作学习 UTransBPNet UNet InvertedResidualUNet_small InvertedResidualUNet_large, 二次表示方法为均值
-- kdcl_train_allmodel_Ten_Flods_4_min  
-  - 协作学习 UTransBPNet UNet InvertedResidualUNet_small InvertedResidualUNet_large, 二次表示方法为误差最小值
-- train_UTransBPNet_VitalDB_Ten_Folds
-  - 独立训练 UTransBPNet模型
-- trian_InvertedResidual_small_Unet_Ten_Folds  
-  - 独立训练 InvertedResidualUNet_small 模型
-- trian_InvertedResidual_large_Unet_Ten_Folds  
-  - 独立训练 InvertedResidualUNet_large 模型
-- Model 所有的模型文件
+- train_UNet_Ten_Folders: independent training of UNet
+- kdcl_train_allmodel_Ten_Flods_4_mean: Collaborative learning with mean value as the second-level representation 
+- kdcl_train_allmodel_Ten_Flods_4_min: Collaborative learning with the model with minimal error as the second-level representation
+- train_UTransBPNet_VitalDB_Ten_Folds:independent training of UTransBPNet
+- train_InvertedResidual_small_Unet_Ten_Folds: independent training of InvertedResidualUNet_small 
+- train_InvertedResidual_large_Unet_Ten_Folds: independent training of InvertedResidualUNet_large 
+- Description of all model structures used in the training above 
