@@ -1,0 +1,36 @@
+C:\Users\heyonghu\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/heyonghu/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S \\10.102.6.182\users\贺永虎\工作交接归档\03_嵌入式部署代码\client_code_电脑\cpp -B \\10.102.6.182\users\贺永虎\工作交接归档\03_嵌入式部署代码\client_code_电脑\cpp\cmake-build-debug
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/Users/heyonghu/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe
+-- Check for working C compiler: C:/Users/heyonghu/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe - broken
+CMake Error at C:/Users/heyonghu/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "C:/Users/heyonghu/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: '//10.102.6.182/users/贺永虎/工作交接归档/03_嵌入式部署代码/client_code_电脑/cpp/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3hdxgb'
+    
+    Run Build Command(s): C:/Users/heyonghu/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_40f11
+    [1/2] C:\Users\heyonghu\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe    -o CMakeFiles\cmTC_40f11.dir\testCCompiler.c.obj -c \\10.102.6.182\users\璐烘案铏嶾宸ヤ綔浜ゆ帴褰掓。\03_宓屽叆寮忛儴缃蹭唬鐮乗client_code_鐢佃剳\cpp\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-3hdxgb\testCCompiler.c
+    FAILED: CMakeFiles/cmTC_40f11.dir/testCCompiler.c.obj 
+    C:\Users\heyonghu\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe    -o CMakeFiles\cmTC_40f11.dir\testCCompiler.c.obj -c \\10.102.6.182\users\璐烘案铏嶾宸ヤ綔浜ゆ帴褰掓。\03_宓屽叆寮忛儴缃蹭唬鐮乗client_code_鐢佃剳\cpp\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-3hdxgb\testCCompiler.c
+    Assembler messages:
+    Fatal error: can't create CMakeFiles\cmTC_40f11.dir\testCCompiler.c.obj: Invalid argument
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
