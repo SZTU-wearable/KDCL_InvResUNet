@@ -8,5 +8,5 @@
 - train_InvertedResidual_large_Unet_Ten_Folds: independent training of InvertedResidualUNet_large
 - Description of all model structures used in the training above
 - Embedded_deployment_code: Code deployed to the Raspberry Pi 4 Model B
-- Ablation:code for ablation study: experiments without Unet or without UTransBPnet in Collaborative learning, and without the SE block in InvertedResidualUNet_small
+- Ablation:code for ablation study,experiments without Unet or without UTransBPnet in Collaborative learning, and without the SE block in InvertedResidualUNet_small
 - test_predict:This directory contains test prediction scripts
