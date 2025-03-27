@@ -1,5 +1,10 @@
-# KDCL_InvResUNet
+Please refer to this work for details of the method.
 
+Wentao Li, Yonghu He, Qing Liu, Kun Gao, and Yali Zheng, "Collaborative Learning-Enhanced Lightweight Models for Predicting Arterial Blood Pressure Waveform in a Largescale
+ Perioperative Dataset", Computers in Biology and Medicine. (Under Review)
+ 
+
+# KDCL_InvResUNet
 - train_UNet_Ten_Folds: independent training of UNet.
 - kdcl_train_allmodel_Ten_Folds_4_mean: Collaborative learning with mean value as the second-level representation.
 - kdcl_train_allmodel_Ten_Folds_4_min: Collaborative learning with the model with minimal error as the second-level representation.
@@ -10,3 +15,5 @@
 - Embedded_deployment_code:Code deployed to the Raspberry Pi 4 Model B.
 - Ablation:experiments without Unet or without UTransBPnet in Collaborative learning, and without the SE block in sInvResUNet.
 - test_predict:This directory contains test prediction scripts.
+
+
