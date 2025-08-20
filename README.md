@@ -1,7 +1,7 @@
 Please refer to this work for details of the method.
 
 Wentao Li, Yonghu He, Qing Liu, Kun Gao, and Yali Zheng, "Collaborative Learning-Enhanced Lightweight Models for Predicting Arterial Blood Pressure Waveform in a Largescale
- Perioperative Dataset", Computers in Biology and Medicine. (Under Review)
+ Perioperative Dataset" (Under Review), available on axiv: http://arxiv.org/abs/2508.11669 
  
 
 # KDCL_InvResUNet
